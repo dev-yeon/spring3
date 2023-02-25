@@ -1,0 +1,27 @@
+-- spring3 예제의 타이틀
+
+주민등록번호 , 이름, 나이  저장할 테이블 생성 (person) 
+
+각 컬럼의 제약조건, 속성도 용도에 맞춰서 만들어야 한다. 
+
+create table person (
+	idnum	varchar2(20) primary key, 
+	name varchar2(30) not null, 
+	age number(3) default 0 
+); 
+
+	-- 저장 예 
+
+	
+	
+	-- 1명 검색 예 
+	
+	
+	
+	-- 전체조회 
+	
+	-- 1명 삭제 
+	
+	-- 1 명의 나이 수정 
+	
+	
